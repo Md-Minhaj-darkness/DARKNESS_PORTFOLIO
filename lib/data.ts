@@ -201,12 +201,12 @@ export const learningJourney: TimelineItem[] = [
 
 export const experience: ExperienceItem[] = [
   {
-    role: 'Penetration Tester',
+    role: 'Bug Bounty Hunter',
     company: 'SecureNet Consulting',
-    duration: '2024 — Present',
+    duration: '2023 — Present',
     location: 'Remote',
     points: [
-      'Conducted black-box and gray-box web application assessments for clients across fintech and e-commerce.',
+      'Conducted black-box and gray-box web application assessments on various programs via the HackerOne platform.',
       'Authored professional-grade findings reports with CVSS scoring and remediation guidance.',
       'Collaborated with blue team counterparts on detection validation post-engagement.',
     ],
@@ -234,9 +234,9 @@ export const education: EducationItem[] = [
 ];
 
 export const certifications: Certification[] = [
-  { name: 'eLearnSecurity Junior Penetration Tester', shortName: 'eJPT', issuer: 'INE', status: 'Completed', year: '2025', color: '#00ff9c' },
+  { name: 'Ethical Hacking For Professionals', shortName: 'EHP', issuer: 'bytecapsuleit', status: 'Completed', year: '2025', color: '#00ff9c' },
   { name: 'Practical Network Penetration Tester', shortName: 'PNPT', issuer: 'TCM Security', status: 'In Progress', color: '#00d9ff' },
-  { name: 'Certified Ethical Hacker', shortName: 'CEH', issuer: 'EC-Council', status: 'In Progress', color: '#00ff9c' },
+  { name: 'Basic to Advanced Digital Forensics & Cyber Crime Investigation', shortName: 'DFIR', issuer: 'bytecapsuleit', status: 'Completed', year: '2025', color: '#00ff9c' },
   { name: 'CompTIA Security+', shortName: 'Security+', issuer: 'CompTIA', status: 'In Progress', color: '#00d9ff' },
   { name: 'Offensive Security Certified Professional', shortName: 'OSCP', issuer: 'Offensive Security', status: 'Future Goal', color: '#ffb800' },
   { name: 'Google Cybersecurity Certificate', shortName: 'Google Cybersecurity', issuer: 'Google', status: 'Completed', year: '2024', color: '#00ff9c' },
