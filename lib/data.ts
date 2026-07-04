@@ -225,10 +225,10 @@ export const experience: ExperienceItem[] = [
 
 export const education: EducationItem[] = [
   {
-    degree: 'B.Sc. in Computer Science / Cyber Security',
-    institution: 'Your University',
+    degree: 'Cyber Security',
+    institution: 'Coursera / Udemy / Google / other online platforms',
     duration: '2022 — 2026',
-    location: 'Your City, Country',
+    location: 'Online Learning',
     description: 'Focused coursework in network security, cryptography, and systems programming.',
   },
 ];
