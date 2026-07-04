@@ -97,7 +97,7 @@ export default function Hero() {
           <div className="corner-frame relative h-64 w-64 animate-float rounded-2xl p-1 sm:h-80 sm:w-80">
             <div className="h-full w-full overflow-hidden rounded-2xl border border-cyber-green/30 bg-cyber-gray shadow-[0_0_40px_rgba(0,255,156,0.15)]">
               <Image
-                src="E:\kali\HIDDEN DATA\cv image.png"
+                src="https://drive.google.com/file/d/1Rj26bMHcM9w7otbRmPeJjG_GbGkSKE0M/view"
                 alt={`${siteConfig.name} - profile photo`}
                 width={320}
                 height={320}
