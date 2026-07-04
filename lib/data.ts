@@ -10,9 +10,9 @@ import {
 } from '@/types';
 
 export const siteConfig = {
-  name: 'Your Name',
-  role: 'Cyber Security Engineer',
-  roles: ['Cyber Security Engineer', 'Ethical Hacker', 'Penetration Tester', 'Security Researcher', 'Bug Bounty Hunter'],
+  name: 'Md Minhaj',
+  role: 'Cyber Security Researcher & Penetration Tester',
+  roles: ['Cyber Security Researcher', 'Ethical Hacker', 'Penetration Tester', 'Security Researcher', 'Bug Bounty Hunter'],
   typingWords: [
     'Penetration Testing',
     'Web Security',
@@ -22,19 +22,17 @@ export const siteConfig = {
     'Network Security',
     'Malware Analysis',
   ],
-  email: 'you@example.com',
-  github: 'https://github.com/yourusername',
-  linkedin: 'https://linkedin.com/in/yourusername',
-  twitter: 'https://x.com/yourusername',
-  discord: 'https://discord.com/users/yourusername',
-  resumeUrl: '/resume/resume.pdf',
+  email: 'pentester.minhaj@gmail.com',
+  github: 'https://github.com/Md-Minhaj-darkness',
+  linkedin: 'https://www.linkedin.com/in/md-minhaj-darkness/',
+  twitter: 'https://x.com/MDMINHA17101032',
+  discord: 'https://discord.com/users/1316397974338797580',
+  resumeUrl: '"E:\\kali\\HIDDEN DATA\\JOB CV\\MD_MINHAJ_FlowCV_Resume_2026-06-0.pdf"',
   location: 'Remote / Worldwide',
-  about: `I'm a cybersecurity engineer focused on offensive security — breaking things
-    responsibly so they can be built back stronger. My work spans ethical hacking,
-    web application security, and vulnerability assessment, with a strong foundation
-    in secure coding, Linux internals, and networking. I spend my time hunting bugs,
-    building tooling, and documenting what I learn, because in this field the moment
-    you stop learning is the moment you fall behind.`,
+  about: `I'm a Cybersecurity Researcher, Penetration Tester, and Digital Forensics Practitioner specializing in offensive security, vulnerability research, and incident investigation. My expertise includes web application security, malware analysis, incident response, Linux, networking, and secure software development.
+
+I enjoy discovering vulnerabilities, analyzing digital evidence, building security tools, and sharing practical cybersecurity knowledge through technical content and online training. I believe continuous learning is the foundation of staying ahead in cybersecurity.
+.`,
 };
 
 export const aboutHighlights = [
