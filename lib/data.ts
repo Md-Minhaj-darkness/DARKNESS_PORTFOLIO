@@ -76,9 +76,9 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Network Security', level: 84 },
       { name: 'Active Directory', level: 75 },
       { name: 'OSINT', level: 86 },
-      { name: 'Digital Forensics', level: 70 },
-      { name: 'Malware Analysis', level: 65 },
-      { name: 'Threat Hunting', level: 72 },
+      { name: 'Digital Forensics', level: 82 },
+      { name: 'Malware Analysis', level: 72 },
+      { name: 'Threat Hunting', level: 82 },
     ],
   },
   {
@@ -183,12 +183,12 @@ export const projects: Project[] = [
 export const projectSections = ['Featured', 'Labs', 'CTF Writeups', 'Security Research', 'Open Source'] as const;
 
 export const achievements: Achievement[] = [
-  { title: 'Rank #12 — National CTF Finals', issuer: 'National Cyber League', date: '2026', type: 'CTF' },
+  { title: 'Hall of Fame & bug bounty', issuer: 'HackerOne', date: '2025', type: 'Bug Bounty' },
   { title: 'ACP Certified', issuer: 'APISEC', date: '2025', type: 'Certification' },
-  { title: 'Winner — University Hackathon', issuer: 'CyberFest', date: '2025', type: 'Hackathon' },
+  { title: 'TryHackMe Lab Solve', issuer: 'TryHackMe', date: '2025', type: 'CTF' },
   { title: 'Hall of Fame', issuer: 'Bugcrowd', date: '2025', type: 'Bug Bounty' },
-  { title: 'Top 50 — HackTheBox University CTF', issuer: 'HackTheBox', date: '2025', type: 'CTF' },
-  { title: 'Best Security Research Award', issuer: 'Local Security Meetup', date: '2024', type: 'Award' },
+  { title: 'Hall of Fame', issuer: 'Self Host Program', date: '2025', type: 'Bug Bounty' },
+  { title: 'Lab & CTF Solve', issuer: 'Root-me', date: '2024', type: 'CTF' },
 ];
 
 export const learningJourney: TimelineItem[] = [
@@ -203,7 +203,7 @@ export const learningJourney: TimelineItem[] = [
 export const experience: ExperienceItem[] = [
   {
     role: 'Bug Bounty Hunter',
-    company: 'SecureNet Consulting',
+    company: 'HackerOne Platform',
     duration: '2023 — Present',
     location: 'Remote',
     points: [
@@ -213,8 +213,8 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    role: 'Security Research Intern',
-    company: 'CyberLabs',
+    role: 'jr. Penetration Tester',
+    company: 'bytecapsuleit',
     duration: '2024 — 2025',
     location: 'Hybrid',
     points: [
@@ -294,8 +294,8 @@ export const terminalCommands: Record<string, string[]> = {
     '  clear      - clear the terminal',
   ],
   skills: [
-    'Programming   : Python, Bash, JavaScript, PHP, SQL',
+    'Programming   : Python, Bash, JavaScript, PHP, SQL, Rust',
     'Security      : Web Pentesting, API Security, Network Security, OSINT',
-    'Tools         : Burp Suite, Nmap, Metasploit, Wireshark, SQLMap',
+    'Tools         : Burp Suite, Nmap, Metasploit, Wireshark, SQLMap, more...',
   ],
 };
