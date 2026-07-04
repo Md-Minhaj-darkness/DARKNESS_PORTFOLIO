@@ -239,8 +239,8 @@ export const certifications: Certification[] = [
   { name: 'Basic to Advanced Digital Forensics & Cyber Crime Investigation', shortName: 'DFIR', issuer: 'bytecapsuleit', status: 'Completed', year: '2025', color: '#00ff9c' },
   { name: 'Mastering Android Bug Bounties with Personal PoC', shortName: 'MABB', issuer: 'Udemy', status: 'Completed', year: '2025', color: '#00ff9c' },
   { name: 'Offensive Security Certified Professional', shortName: 'OSCP', issuer: 'Offensive Security', status: 'Future Goal', color: '#ffb800' },
-  { name: 'Google Cybersecurity Certificate', shortName: 'Google Cybersecurity', issuer: 'Google', status: 'Completed', year: '2024', color: '#00ff9c' },
-  { name: 'Cisco Introduction to Cybersecurity', shortName: 'Cisco', issuer: 'Cisco Networking Academy', status: 'Completed', year: '2023', color: '#00d9ff' },
+  { name: 'Offensive API Exploitation', shortName: 'API Exploitation', issuer: 'Udemy', status: 'Completed', year: '2024', color: '#00ff9c' },
+  { name: 'Practical Bug Bounty', shortName: 'PBB', issuer: 'TCM Security', status: 'Completed', year: '2023', color: '#00ff9c' },
 ];
 
 export const stats = [
