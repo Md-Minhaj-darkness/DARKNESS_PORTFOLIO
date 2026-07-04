@@ -235,9 +235,9 @@ export const education: EducationItem[] = [
 
 export const certifications: Certification[] = [
   { name: 'Ethical Hacking For Professionals', shortName: 'EHP', issuer: 'bytecapsuleit', status: 'Completed', year: '2025', color: '#00ff9c' },
-  { name: 'Practical Network Penetration Tester', shortName: 'PNPT', issuer: 'TCM Security', status: 'In Progress', color: '#00d9ff' },
+  { name: 'APIsec Certified Practitioner', shortName: 'ACP', issuer: 'APISEC', status: 'Completed', year: '2025', color: '#00ff9c' },
   { name: 'Basic to Advanced Digital Forensics & Cyber Crime Investigation', shortName: 'DFIR', issuer: 'bytecapsuleit', status: 'Completed', year: '2025', color: '#00ff9c' },
-  { name: 'CompTIA Security+', shortName: 'Security+', issuer: 'CompTIA', status: 'In Progress', color: '#00d9ff' },
+  { name: 'Mastering Android Bug Bounties with Personal PoC', shortName: 'MABB', issuer: 'Udemy', status: 'Completed', year: '2025', color: '#00ff9c' },
   { name: 'Offensive Security Certified Professional', shortName: 'OSCP', issuer: 'Offensive Security', status: 'Future Goal', color: '#ffb800' },
   { name: 'Google Cybersecurity Certificate', shortName: 'Google Cybersecurity', issuer: 'Google', status: 'Completed', year: '2024', color: '#00ff9c' },
   { name: 'Cisco Introduction to Cybersecurity', shortName: 'Cisco', issuer: 'Cisco Networking Academy', status: 'Completed', year: '2023', color: '#00d9ff' },
