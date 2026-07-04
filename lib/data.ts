@@ -241,6 +241,7 @@ export const certifications: Certification[] = [
   { name: 'Offensive Security Certified Professional', shortName: 'OSCP', issuer: 'Offensive Security', status: 'Future Goal', color: '#ffb800' },
   { name: 'Offensive API Exploitation', shortName: 'API Exploitation', issuer: 'Udemy', status: 'Completed', year: '2024', color: '#00ff9c' },
   { name: 'Practical Bug Bounty', shortName: 'PBB', issuer: 'TCM Security', status: 'Completed', year: '2023', color: '#00ff9c' },
+  { name: 'Practical API Hacking', shortName: 'PAH', issuer: 'TCM Security', status: 'Completed', year: '2023', color: '#00ff9c' },
 ];
 
 export const stats = [
