@@ -27,7 +27,7 @@ export const siteConfig = {
   linkedin: 'https://www.linkedin.com/in/md-minhaj-darkness/',
   twitter: 'https://x.com/MDMINHA17101032',
   discord: 'https://discord.com/users/1316397974338797580',
-  resumeUrl: '/public/resume/resume.pdf',
+  resumeUrl: '/resume/resume.pdf',
   location: 'Remote / Worldwide',
   about: `I'm a Cybersecurity Researcher, Penetration Tester, and Digital Forensics Practitioner specializing in offensive security, vulnerability research, and incident investigation. My expertise includes web application security, malware analysis, incident response, Linux, networking, and secure software development.
 
