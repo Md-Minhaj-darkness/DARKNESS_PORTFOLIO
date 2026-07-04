@@ -262,6 +262,16 @@ export const blogPosts: BlogPost[] = [
     readTime: '6 min read',
     tags: ['Web Security', 'OWASP'],
     slug: 'understanding-idor',
+    content: [
+      'Insecure Direct Object References (IDOR) remain one of the most common — and most overlooked — vulnerabilities in modern web applications. They happen when an application exposes a reference to an internal object, like a database ID, without properly verifying that the requesting user is actually authorized to access it.',
+      '## Why IDOR slips past code review',
+      'Most IDOR bugs are not the result of bad code in isolation. They emerge from the gap between authentication (who are you) and authorization (what are you allowed to touch). A developer might correctly check that a user is logged in, but forget to check that the specific record being requested belongs to that user.',
+      '## A systematic hunting approach',
+      'Start by mapping every endpoint that accepts an identifier — user IDs, order numbers, invoice references, file paths. For each one, test with a second low-privilege account: does changing the ID let you view or modify data that should belong to someone else? Pay special attention to endpoints that were added later in a project\'s life, since they are more likely to have been bolted on without revisiting the authorization model.',
+      '## Practical tips',
+      'Automate the boring part: capture a full authenticated session with Burp Suite, then replay each request with a second account\'s session token instead of your own. Any response that still returns 200 with real data is worth a closer look. Also check indirect references — sequential IDs are the obvious case, but UUIDs and encoded references can still be vulnerable if they are guessable or leaked elsewhere in the app.',
+      'IDOR is simple to explain but easy to miss at scale. Treating authorization checks as a first-class concern — tested on every single object-returning endpoint — is the only reliable defense.',
+    ],
   },
   {
     id: 'blog-2',
@@ -271,6 +281,16 @@ export const blogPosts: BlogPost[] = [
     readTime: '8 min read',
     tags: ['Recon', 'Bug Bounty'],
     slug: 'subdomain-enum-methodology',
+     content: [
+      'Recon is where most bug bounty engagements are won or lost. A wider, more accurate view of the attack surface almost always beats a narrower but "deeper" look at a handful of known hosts.',
+      '## Passive enumeration first',
+      'Before sending a single packet to the target, I pull everything available from public sources: certificate transparency logs, historical DNS records, and search-engine indexed subdomains. This builds an initial list with zero risk of tipping off the target.',
+      '## Active enumeration, carefully',
+      'Once the passive list is exhausted, I move to active techniques — DNS brute-forcing with curated wordlists and permutation scanning based on naming patterns I noticed in the passive results. Rate limiting matters here: aggressive scanning can trigger WAF blocks or, worse, violate the program\'s scope rules.',
+      '## Fingerprinting and prioritization',
+      'Every discovered host gets fingerprinted for its underlying technology and HTTP status. I specifically flag hosts with dangling CNAME records pointing to unclaimed cloud services, since those are prime subdomain takeover candidates.',
+      'The goal of this whole phase isn\'t just a longer list of hostnames — it\'s a prioritized map of where the interesting attack surface actually lives.',
+    ],
   },
   {
     id: 'blog-3',
@@ -280,6 +300,16 @@ export const blogPosts: BlogPost[] = [
     readTime: '10 min read',
     tags: ['Active Directory', 'Red Team'],
     slug: 'ad-attacks-for-beginners',
+    content: [
+      'Active Directory sits at the center of most enterprise networks, which makes it one of the highest-value targets in an internal penetration test.',
+      '## LLMNR/NBT-NS poisoning',
+      'Many Windows networks still have legacy name-resolution protocols enabled that will happily respond to broadcast queries. By listening on the network and responding to these broadcasts, an attacker can capture password hashes as machines try to authenticate to a machine that does not really exist.',
+      '## Kerberoasting',
+      'Any authenticated domain user can request a service ticket for any service account with a registered Service Principal Name. That ticket is encrypted with the service account\'s password hash, which means it can be extracted and cracked offline — no elevated privileges required to get started.',
+      '## Mapping the domain with BloodHound',
+      'Once a foothold and some credentials are in hand, BloodHound turns raw AD relationships into a graph you can actually reason about: group memberships, ACLs, and session data reveal attack paths to Domain Admin that would be nearly impossible to spot manually.',
+      'These three techniques form a natural starting sequence for anyone learning AD security: get initial credentials, escalate through service accounts, then use graph analysis to find the shortest path to full domain compromise.',
+    ],
   },
 ];
 
