@@ -184,7 +184,7 @@ export const projectSections = ['Featured', 'Labs', 'CTF Writeups', 'Security Re
 
 export const achievements: Achievement[] = [
   { title: 'Rank #12 — National CTF Finals', issuer: 'National Cyber League', date: '2026', type: 'CTF' },
-  { title: 'eJPT Certified', issuer: 'INE / eLearnSecurity', date: '2025', type: 'Certification' },
+  { title: 'ACP Certified', issuer: 'APISEC', date: '2025', type: 'Certification' },
   { title: 'Winner — University Hackathon', issuer: 'CyberFest', date: '2025', type: 'Hackathon' },
   { title: 'Hall of Fame', issuer: 'Bugcrowd', date: '2025', type: 'Bug Bounty' },
   { title: 'Top 50 — HackTheBox University CTF', issuer: 'HackTheBox', date: '2025', type: 'CTF' },
