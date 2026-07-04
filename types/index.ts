@@ -69,4 +69,5 @@ export interface BlogPost {
   readTime: string;
   tags: string[];
   slug: string;
+  content: string[];
 }
