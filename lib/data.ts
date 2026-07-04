@@ -43,6 +43,7 @@ export const aboutHighlights = [
   { title: 'Secure Coding', desc: 'Building and reviewing code with a security-first mindset from the ground up.' },
   { title: 'Linux & Networking', desc: 'Comfortable at the command line, from packet captures to kernel-level detail.' },
   { title: 'Continuous Learning', desc: 'Always in a lab, a CTF, or a writeup — the field moves fast and so do I.' },
+  { title: 'Digital Forensics', desc: 'Digital evidence acquisition, analysis, recovery, and cybercrime investigation using industry-standard forensic methodologies.' },
 ];
 
 export const skillCategories: SkillCategory[] = [
