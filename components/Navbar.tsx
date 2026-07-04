@@ -35,7 +35,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6">
         <a href="#home" className="flex items-center gap-2 font-mono text-lg font-bold text-cyber-green">
           <ShieldHalf className="h-6 w-6" />
-          <span className="gradient-text">root@portfolio</span>
+          <span className="gradient-text">root@Darkness</span>
         </a>
 
         <ul className="hidden items-center gap-7 font-mono text-sm text-gray-300 lg:flex">
