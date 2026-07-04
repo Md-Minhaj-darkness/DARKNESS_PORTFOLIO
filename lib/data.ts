@@ -246,11 +246,11 @@ export const certifications: Certification[] = [
 ];
 
 export const stats = [
-  { label: 'Projects', value: 24 },
+  { label: 'Projects', value: 60 },
   { label: 'Labs Completed', value: 120 },
-  { label: 'CTFs Played', value: 35 },
-  { label: 'GitHub Contributions', value: 850 },
-  { label: 'Certifications', value: 3 },
+  { label: 'CTFs Played', value: 10 },
+  { label: 'GitHub Contributions', value: 100 },
+  { label: 'Certifications', value: 10 },
 ];
 
 export const blogPosts: BlogPost[] = [
