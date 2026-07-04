@@ -201,9 +201,9 @@ export const learningJourney: TimelineItem[] = [
 
 export const experience: ExperienceItem[] = [
   {
-    role: 'Junior Penetration Tester',
+    role: 'Penetration Tester',
     company: 'SecureNet Consulting',
-    duration: '2025 — Present',
+    duration: '2024 — Present',
     location: 'Remote',
     points: [
       'Conducted black-box and gray-box web application assessments for clients across fintech and e-commerce.',
