@@ -96,9 +96,11 @@ function structureContent(content: string[]): Block[] {
 
   for (const line of content) {
     const trimmed = line.trim();
+    if (trimmed === '') continue;
+
     const numberedMatch = trimmed.match(/^\d+\.\s+(.*)$/);
     const bulletMatch = trimmed.match(/^[-*]\s+(.*)$/);
-    const headingMatch = trimmed.match(/^##\s*(.*)$/);
+    const headingMatch = trimmed.match(/^#+\s*(.*)$/);
     const isPipeRow = trimmed.startsWith('|') && trimmed.includes('|', 1);
 
     if (headingMatch) {
