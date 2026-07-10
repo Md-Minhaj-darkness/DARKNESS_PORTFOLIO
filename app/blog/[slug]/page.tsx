@@ -5,6 +5,7 @@ import { ArrowLeft, Calendar, Clock, ShieldHalf } from 'lucide-react';
 import { blogPosts, siteConfig } from '@/lib/data';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import BlogArticleBody from '@/components/BlogArticleBody';
 
 interface Props {
   params: { slug: string };
@@ -80,21 +81,8 @@ export default function BlogPostPage({ params }: Props) {
             </div>
           </div>
 
-          {/* Article body - Medium-style typography: wide line-height, larger font, generous spacing */}
-          <div className="mt-12 space-y-7 text-[19px] leading-[1.9] text-gray-200">
-            {post.content.map((block, i) =>
-              block.startsWith('## ') ? (
-                <h2
-                  key={i}
-                  className="!mt-14 !mb-2 text-2xl font-bold text-white first:!mt-0 sm:text-3xl"
-                >
-                  {block.replace('## ', '')}
-                </h2>
-              ) : (
-                <p key={i}>{block}</p>
-              )
-            )}
-          </div>
+          {/* Article body - Medium-style typography, with headings, lists, and tip callouts */}
+          <BlogArticleBody content={post.content} />
 
           {/* Footer nav back to writeups */}
           <div className="mt-16 border-t border-cyber-border/60 pt-8">
