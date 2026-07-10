@@ -408,7 +408,7 @@ export const blogPosts: BlogPost[] = [
   "     SIM-based Attack বা Fraud বিশ্লেষণ করতে পারবেন।",
   "     Mobile Device Security Research-এ আরও দক্ষ হতে পারবেন।",
   "     ",
-  "=============================Part 2 ================================",
+  "====================Part 2 ===========================",
   "",
   "##অধ্যায় ১: Carrier Networks (বাংলায়)",
   "",
