@@ -13,6 +13,7 @@ import HackerTerminal from '@/components/HackerTerminal';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import PageTransition from '@/components/PageTransition';
+import BlogArticleBody from '@/components/BlogArticleBody';
 
 export default function Home() {
   return (
