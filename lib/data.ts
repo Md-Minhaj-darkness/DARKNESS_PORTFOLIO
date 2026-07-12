@@ -39,7 +39,7 @@ I enjoy discovering vulnerabilities, analyzing digital evidence, building securi
 export const services: ServiceItem[] = [
   { id: 'MOD-01', title: 'Application Penetration Testing', status: 'ACTIVE' },
   { id: 'MOD-02', title: 'API Penetration Testing', status: 'ACTIVE' },
-  { id: 'MOD-03', title: 'AI/LLM Application Penetration Testing', status: 'ACTIVE' },
+  { id: 'MOD-03', title: 'LLM Application Penetration Testing', status: 'ACTIVE' },
   { id: 'MOD-04', title: 'Red Teaming & Adversary Simulation', status: 'ACTIVE' },
   { id: 'MOD-05', title: 'Governance, Risk & Compliance Advisory', status: 'ACTIVE' },
   { id: 'MOD-06', title: 'Training, Awareness & Community Engagement', status: 'ACTIVE' },
@@ -478,9 +478,9 @@ export const blogPosts: BlogPost[] = [
     title: 'SIM Forensics A to Z in bangla: Investigating Mobile SIM Cards Part 3&4',
     excerpt: 'Basic to advanced techniques for extracting and analyzing data from mobile SIM cards, including IMSI, ICCID, and call logs.',
     date: 'july 2026',
-    readTime: '10 min read',
+    readTime: '15 min read',
     tags: ['SIM Forensics', 'Mobile Security'],
-    slug: 'sim-forensics-a-to-z',
+    slug: 'sim-forensics-a-to-z-part-3-4',
     content: [
        "## Part 3",
   "## What are SIM Cards?",
