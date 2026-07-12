@@ -51,7 +51,7 @@ function HubCard() {
           <ShieldCheck className="h-6 w-6 text-cyber-green" />
         </div>
         <div>
-          <h3 className="font-mono text-lg font-semibold text-white">Cyber Security Services</h3>
+          <h3 className="font-mono text-lg font-semibold text-white">Security Services</h3>
           <a
             href="#projects"
             className="focus-ring flex items-center gap-1 font-mono text-xs text-cyber-blue hover:text-cyber-green"
