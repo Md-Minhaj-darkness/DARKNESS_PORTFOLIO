@@ -473,6 +473,17 @@ export const blogPosts: BlogPost[] = [
       "> ধন্যবাদ। শীঘ্রই পরবর্তী অংশ (Part 3) নিয়ে আসছি।",
     ],
   },
+  {
+    id: 'blog-4',
+    title: 'SIM Forensics A to Z in bangla: Investigating Mobile SIM Cards Part 3&4',
+    excerpt: 'Basic to advanced techniques for extracting and analyzing data from mobile SIM cards, including IMSI, ICCID, and call logs.',
+    date: 'july 2026',
+    readTime: '10 min read',
+    tags: ['SIM Forensics', 'Mobile Security'],
+    slug: 'sim-forensics-a-to-z',
+    content: [
+    ],
+  },
 ];
 
 export const terminalCommands: Record<string, string[]> = {
