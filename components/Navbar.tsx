@@ -5,12 +5,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ShieldHalf } from 'lucide-react';
 
 const links = [
-  { href: '#services', label: 'Services' },
+  
   { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#achievements', label: 'Achievements' },
   { href: '#experience', label: 'Experience' },
+  { href: '#services', label: 'Services' },
   { href: '#certifications', label: 'Certifications' },
   { href: '#blog', label: 'Blog' },
   { href: '#terminal', label: 'Terminal' },
