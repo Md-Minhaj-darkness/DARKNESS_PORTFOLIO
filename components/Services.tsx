@@ -53,7 +53,7 @@ function HubCard() {
         <div>
           <h3 className="font-mono text-lg font-semibold text-white">Security Services</h3>
           <a
-            href="#projects"
+            href="#services"
             className="focus-ring flex items-center gap-1 font-mono text-xs text-cyber-blue hover:text-cyber-green"
           >
             VIEW ALL <ArrowUpRight className="h-3 w-3" />
