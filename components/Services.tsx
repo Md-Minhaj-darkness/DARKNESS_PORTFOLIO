@@ -93,7 +93,7 @@ export default function Services() {
         >
           <p className="font-mono text-sm text-cyber-green">00. // services</p>
           <h2 className="section-heading mt-2 text-3xl font-bold text-white sm:text-4xl">
-            What I <span className="gradient-text">Do</span>
+            OUR <span className="gradient-text">SERVICES</span>
           </h2>
         </motion.div>
 
