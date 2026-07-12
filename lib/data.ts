@@ -5,6 +5,7 @@ import {
   EducationItem,
   ExperienceItem,
   Project,
+  ServiceItem,
   SkillCategory,
   TimelineItem,
 } from '@/types';
@@ -34,6 +35,17 @@ export const siteConfig = {
 I enjoy discovering vulnerabilities, analyzing digital evidence, building security tools, and sharing practical cybersecurity knowledge through technical content and online training. I believe continuous learning is the foundation of staying ahead in cybersecurity.
 .`,
 };
+
+export const services: ServiceItem[] = [
+  { id: 'MOD-01', title: 'Application Penetration Testing', status: 'ACTIVE' },
+  { id: 'MOD-02', title: 'API Penetration Testing', status: 'ACTIVE' },
+  { id: 'MOD-03', title: 'AI/LLM Application Penetration Testing', status: 'ACTIVE' },
+  { id: 'MOD-04', title: 'Red Teaming & Adversary Simulation', status: 'ACTIVE' },
+  { id: 'MOD-05', title: 'Governance, Risk & Compliance Advisory', status: 'ACTIVE' },
+  { id: 'MOD-06', title: 'Training, Awareness & Community Engagement', status: 'ACTIVE' },
+  { id: 'MOD-07', title: 'Security Monitoring & Data Protection', status: 'ACTIVE' },
+  { id: 'MOD-08', title: 'Incident Response & Threat Management', status: 'ACTIVE' },
+];
 
 export const aboutHighlights = [
   { title: 'Ethical Hacking', desc: 'Authorized offensive testing to uncover exploitable weaknesses before attackers do.' },

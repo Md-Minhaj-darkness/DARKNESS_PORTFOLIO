@@ -61,6 +61,12 @@ export interface Certification {
   color: string;
 }
 
+export interface ServiceItem {
+  id: string;
+  title: string;
+  status: 'ACTIVE' | 'COMING SOON';
+}
+
 export interface BlogPost {
   id: string;
   title: string;
