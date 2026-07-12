@@ -41,7 +41,7 @@ export const services: ServiceItem[] = [
   { id: 'MOD-02', title: 'API Penetration Testing', status: 'ACTIVE' },
   { id: 'MOD-03', title: 'LLM Application Penetration Testing', status: 'ACTIVE' },
   { id: 'MOD-04', title: 'Red Teaming & Adversary Simulation', status: 'ACTIVE' },
-  { id: 'MOD-05', title: 'Governance, Risk & Compliance Advisory', status: 'ACTIVE' },
+  //{ id: 'MOD-05', title: 'Governance, Risk & Compliance Advisory', status: 'ACTIVE' },
   { id: 'MOD-06', title: 'Training, Awareness & Community Engagement', status: 'ACTIVE' },
   //{ id: 'MOD-07', title: 'Security Monitoring & Data Protection', status: 'ACTIVE' },
   { id: 'MOD-08', title: 'Incident Response & Threat Management', status: 'ACTIVE' },
