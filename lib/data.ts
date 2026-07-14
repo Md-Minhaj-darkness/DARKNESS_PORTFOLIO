@@ -899,6 +899,7 @@ export const blogPosts: BlogPost[] = [
   "- **Checksum** = Luhn Algorithm দিয়ে যাচাই করা হয়।",
   "- **SIM-এর ভেতরে** ICCID অনেক সময় Nibble Swap Format-এ সংরক্ষিত থাকে।",
   "- **PIN Lock** থাকলেও ICCID পড়া সম্ভব।",
+  "> ধন্যবাদ। শীঘ্রই পরবর্তী অংশ (Part 7&8) নিয়ে আসছি।",
 
     ],
   },
