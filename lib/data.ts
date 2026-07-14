@@ -757,7 +757,7 @@ export const blogPosts: BlogPost[] = [
   "-      │",
   "- ┌────┴────┐",
             
-  "- SIM View     USIM View",
+  "- SIM View  ,   USIM View",
   "দুই জায়গায় Contact দেখা গেলেও, প্রকৃত ডেটা একবারই সংরক্ষিত থাকে।",
   "## File System Dump বনাম Logical Dump",
   "এটি Mobile Forensics-এর একটি গুরুত্বপূর্ণ ধারণা।",
