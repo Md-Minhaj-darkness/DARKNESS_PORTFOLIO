@@ -756,7 +756,7 @@ export const blogPosts: BlogPost[] = [
   "- Actual Contact",
   "-      │",
   "- ┌────┴────┐",
-  "- │          │",
+  "-           ",
   "- SIM View     USIM View",
   "দুই জায়গায় Contact দেখা গেলেও, প্রকৃত ডেটা একবারই সংরক্ষিত থাকে।",
   "## File System Dump বনাম Logical Dump",
